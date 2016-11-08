@@ -1,3 +1,7 @@
+menu "Custom application"
+    source "package/hello-world/Config.in"
+endmenu
+
 menu "Target packages"
 
 	source "package/busybox/Config.in"
